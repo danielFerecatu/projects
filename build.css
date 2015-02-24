@@ -1,0 +1,115 @@
+* {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  background-color: #0f0f0f;
+  color: #bababa;
+}
+ul {
+  padding-left: 24px;
+  list-style-type: square;
+}
+h1 {
+  margin: 20px 0;
+}
+button {
+  color: #000;
+  padding: 4px 16px;
+  margin: 4px 0px;
+  border: 0;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+button:active,
+button:focus {
+  outline: 0;
+}
+main {
+  max-width: 640px;
+  min-width: 320px;
+  box-sizing: border-box;
+  margin: 8px auto;
+  padding: 12px 32px 24px 32px;
+  font-size: 16px;
+  line-height: 24px;
+}
+main h1 {
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 40px;
+  margin: 32px 0px;
+}
+main p {
+  margin: 12px 0px;
+  font-size: inherit;
+  line-height: inherit;
+}
+footer {
+  width: 100%;
+  height: 64px;
+  box-sizing: border-box;
+  margin: 48px auto 0px;
+  position: relative;
+  margin: 0px auto;
+  padding: 32px 0px 24px 0px;
+  color: #a5a5a5;
+  text-align: center;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+#testContainer button {
+  color: #FFF;
+  margin: 12px 0px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: 0;
+  text-transform: uppercase;
+  background: hsl(226, 79%, 53%);
+  line-height: 20px;
+}
+#testContainer button:hover {
+  cursor: pointer;
+  background: hsl(226, 79%, 57%);
+}
+#testContainer button:active,
+#testContainer button:focus {
+  outline: 0;
+  background: hsl(226, 84%, 76%);
+}
+#testContainer button#done {
+  display: none;
+  margin: 16px auto;
+}
+#testContainer h3 {
+  color: hsl(207, 79%, 53%);
+  line-height: 24px;
+  margin: 12px 0px;
+}
+#testContainer div {
+  display: block;
+  margin: 8px 0px;
+}
+#testContainer div input[type="radio"] {
+  margin: 0px 4px;
+  line-height: 24px;
+  vertical-align: middle;
+}
+#testContainer div label {
+  line-height: 24px;
+  vertical-align: middle;
+}
+#testContainer div label:hover {
+  cursor: pointer;
+}
+.gresit {
+  color: hsl(0, 79%, 53%);
+}
+.corect {
+  color: hsl(121, 79%, 53%);
+}
